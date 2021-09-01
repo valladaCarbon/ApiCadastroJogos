@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ApiCadastroJogos.Controllers.V1
 {
     [ApiController]
-    [Route("ap/V1/[controller]")]
+    [Route("api/V1/[controller]")]
     public class JogosController : ControllerBase
     {
         private readonly IJogoService _jogoService;
